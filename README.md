@@ -1,37 +1,40 @@
 # 🧠 Logic Calculator
 
-A simple propositional logic calculator built with
-HTML, CSS, and vanilla JavaScript.
+A simple, lightweight **propositional logic calculator** built with pure **HTML, CSS, and JavaScript**.
 
-## Features
+No frameworks. No libraries. Just logic. 💀
 
-- T / F truth values
-- Lowercase variables
-- AND `∧`
-- OR `∨`
-- NOT `¬`
-- XOR `⊕`
-- Implication `→`
-- Equivalence `↔`
-- Parentheses
-- Live evaluation
-- T/F variable controls
-- Keyboard shortcuts
-- Mobile-friendly interface
+## ✨ Features
 
-## Keyboard shortcuts
+- ✅ Evaluate propositional logic expressions
+- 🔤 Supports variables such as `p`, `q`, `r`
+- 🔘 Toggle variables between `T` and `F`
+- ⌨️ Real text cursor + keyboard input
+- 📱 Mobile-friendly
+- ⚡ Live expression evaluation
+- ❌ Invalid-expression detection
+- 🧮 Proper operator precedence
+- 🌙 Dark UI
 
-| Keyboard | Operator |
-|----------|----------|
-| `&` | `∧` AND |
-| `|` | `∨` OR |
-| `!` | `¬` NOT |
-| `^` | `⊕` XOR |
-| `->` | `→` IMPLIES |
-| `<->` | `↔` EQUIVALENT |
+### Supported Operators
 
-## Version
+| Symbol | Meaning | Keyboard |
+|--------|---------|----------|
+| `¬` | NOT | `!` |
+| `∧` | AND | `&` |
+| `∨` | OR | `│` |
+| `⊕` | XOR | `^` |
+| `→` | Implication | `->` |
+| `↔` | Equivalence | `<->` |
 
-**V2.01**
+### Operator Precedence
 
-Made by Field.
+From highest to lowest:
+
+```text
+¬
+∧
+⊕
+∨
+→
+↔
