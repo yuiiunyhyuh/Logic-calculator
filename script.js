@@ -16,7 +16,7 @@ const classification = document.getElementById("classification");
 const translations = {
     en: {
         languageLabel: "Language",
-        buyCoffee: "Buy Me a Coffee",
+        buyCoffee: "Donate the dev",
         title: "🧠 Logic Calculator",
         expressionLabel: "Expression",
         expressionAria: "Logic expression",
